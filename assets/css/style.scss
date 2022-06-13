@@ -1,0 +1,118 @@
+#exampleModalLabelZ,
+.shopping_title
+{
+  font-size: 30px;
+}
+
+.modal_close {
+
+  &:focus {
+    box-shadow: 0 0 0 0.0;
+  }
+
+}
+
+.new_price {
+  margin-right: 40px;
+  //display: flex;
+  //align-items: center;
+
+  p{
+    font-size: 20px;
+    margin: 0;
+    color: rgba(255, 0, 0, 0.65);
+    text-shadow: 1px 0 0.5px rgba(0, 0, 0, 0.42);
+  }
+}
+
+
+.modal_image {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.modal_descr {
+  font-size: 16px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+#card_wrapper,
+#card_wrapper_2{
+  position: relative;
+
+  .card_procent {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 15px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.42);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+}
+
+.modal_price_wrapper {
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .old_price_wrapper {
+    display: flex;
+    column-gap: 15px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.38);
+  }
+
+  .modal_price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+.shopping_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+
+  .shopping_image {
+    width: 140px;
+    height: 120px;
+    border-radius: 10px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .shopping_text_wrapper{
+    width: 70%;
+    .shopping_name {
+      font-size: 23px;
+      text-align: right;
+      padding-bottom: 20px;
+    }
+
+    .shopping_price {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: right;
+
+      span {
+        font-size: 20px;
+      }
+
+      .dollar {
+        font-size: 30px;
+        margin-left: 15px;
+      }
+    }
+  }
+}
